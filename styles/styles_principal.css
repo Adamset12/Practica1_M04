@@ -1,3 +1,21 @@
+body {
+    font-family: "Arial", sans-serif;
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
 .title {
     text-align: center;
 }
@@ -9,6 +27,9 @@
 
 hr {
     margin: 10px 0;
+    border: none;
+    border-top: 1px solid #000;
+    width: 100%;
 }
 
 .buttons {
@@ -17,6 +38,12 @@ hr {
 
 .buttons button {
     border: none;
+    background-color: transparent;
+    color: #000;
+}
+
+.buttons button:hover {
+    color: green;
 }
 
 .main-container {
@@ -31,11 +58,16 @@ hr {
 .aboutme {
     flex: 1; /* Ocupa espacio suficiente a la izquierda */
     max-width: 300px; /* Puedes ajustar el ancho según tus necesidades */
+    text-align: center;
 }
 
 .aboutme .sobremi{
     width: auto;
     height: 150px;
+}
+
+.aboutme p{
+    text-align: justify;
 }
 
 .aboutme .ebook{
@@ -57,8 +89,13 @@ hr {
     flex-direction: column;
     align-items: center;
 }
+
 .receipt h1 {
     font-size: medium;
+}
+
+.receipt a:hover {
+    color: #7aba96;
 }
 
 .receipt p {
@@ -66,8 +103,12 @@ hr {
 }
 
 .receipt hr {
-
+    margin: 1px 0;
+    border: none;
+    border-top: 1px solid #7aba96;
+    width: 100%;
 }
+
 
 .receipt img {
     width: 300px;
@@ -77,8 +118,17 @@ hr {
 
 .links {
     text-align: center;
+    padding: 20px;
+    background-color: #000;
+    
 }
 
 .links button {
+    background-color: transparent;
+    color: white;
     border: none;
+}
+
+.links button:hover {
+    color: #7aba96;
 }
