@@ -1,6 +1,6 @@
 body {
     font-family: "Arial", sans-serif;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 a {
@@ -53,6 +53,7 @@ hr {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    margin-bottom: 50px
 }
 
 .aboutme {
@@ -120,6 +121,10 @@ hr {
     text-align: center;
     padding: 20px;
     background-color: #000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     
 }
 
